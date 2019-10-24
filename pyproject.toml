@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "extract-from-url"
-version = "0.1.0"
+version = "0.1.1"
 description = "Download and extract files on-the-fly (ZIP files too)"
 authors = ["Francesco Frassinelli <francesco.frassinelli@nina.no>"]
+license = "GPL-3.0+"
+readme = "README.rst"
+homepage = "https://github.com/frafra/extract-from-url"
+repository = "https://github.com/frafra/extract-from-url"
+keywords = ["libarchive-c"]
 
 [tool.poetry.dependencies]
 python = "^3.7"

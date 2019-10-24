@@ -1,7 +1,7 @@
 import urllib.request
 import libarchive  # libarchive-c
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def extract_from_url(url, progress_bar=None):
