@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "extract-from-url"
+version = "0.1.0"
+description = "Download and extract files on-the-fly (ZIP files too)"
+authors = ["Francesco Frassinelli <francesco.frassinelli@nina.no>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tqdm = "^4.36.1"
+libarchive-c = "^2.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
