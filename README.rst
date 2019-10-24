@@ -14,4 +14,12 @@ You can use `poetry <https://poetry.eustace.io/>`_ or `pip <https://pip.pypa.io/
 Usage
 =====
 
+As standalone program
+---------------------
+
 Please see ``cli.py --help``
+
+As library
+----------
+
+Available as package on `PyPI <https://pypi.org/project/extract-from-url/>`_.
