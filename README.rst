@@ -1,6 +1,9 @@
+.. image:: https://img.shields.io/pypi/v/extract_from_url.svg
+    :target: https://pypi.org/project/extract_from_url/
+
 Description
 ===========
-
+    
 Take advantage of `libarchive <https://libarchive.org/>`_ to download and extract files without having to store the archive first. Works with ZIP files too!
 
 Dependencies
