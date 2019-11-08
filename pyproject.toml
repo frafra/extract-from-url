@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "extract-from-url"
-version = "0.1.1"
+version = "0.2.0"
 description = "Download and extract files on-the-fly (ZIP files too)"
 authors = ["Francesco Frassinelli <francesco.frassinelli@nina.no>"]
 license = "GPL-3.0+"
