@@ -1,6 +1,9 @@
-libarchive-c==2.9 \
-    --hash=sha256:84d5dbba635f4fe2819a8d5f45c63917daff488f0f01e7d5b6cae95f2bd51a28 \
-    --hash=sha256:9919344cec203f5db6596a29b5bc26b07ba9662925a05e24980b84709232ef60
-tqdm==4.36.1 \
-    --hash=sha256:abc25d0ce2397d070ef07d8c7e706aede7920da163c64997585d42d3537ece3d \
-    --hash=sha256:dd3fcca8488bb1d416aa7469d2f277902f26260c45aa86b667b074cd44b3b115
+colorama==0.4.5 ; python_version >= "3.7" and python_version <= "3.11" and platform_system == "Windows" \
+    --hash=sha256:854bf444933e37f5824ae7bfc1e98d5bce2ebe4160d46b5edf346a89358e99da \
+    --hash=sha256:e6c6b4334fc50988a639d9b98aa429a0b57da6e17b9a44f0451f930b6967b7a4
+libarchive-c==4.0 ; python_version >= "3.7" and python_version <= "3.11" \
+    --hash=sha256:a5b41ade94ba58b198d778e68000f6b7de41da768de7140c984f71d7fa8416e5 \
+    --hash=sha256:b7306dceaeeac199dd53a471ea9d39ed4be8e81962df99d628db7a12efbb9b52
+tqdm==4.64.0 ; python_version >= "3.7" and python_version <= "3.11" \
+    --hash=sha256:40be55d30e200777a307a7585aee69e4eabb46b4ec6a4b4a5f2d9f11e7d5408d \
+    --hash=sha256:74a2cdefe14d11442cedf3ba4e21a3b84ff9a2dbdc6cfae2c34addb2a14a5ea6

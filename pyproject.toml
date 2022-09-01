@@ -10,12 +10,12 @@ repository = "https://github.com/frafra/extract-from-url"
 keywords = ["libarchive-c"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-tqdm = "^4.36.1"
-libarchive-c = "^2.9"
+python = ">=3.7,<=3.11"
+tqdm = ">=4.36.1"
+libarchive-c = ">=2.9"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.4"
+pytest = ">=5.4"
 
 [build-system]
 requires = ["poetry>=0.12"]
