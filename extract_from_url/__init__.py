@@ -2,7 +2,7 @@ import urllib.request
 import libarchive  # libarchive-c
 from pathlib import Path
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 
 def extract_from_url(url, progress_bar=None):
